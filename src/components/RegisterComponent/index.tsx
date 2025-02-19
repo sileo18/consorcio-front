@@ -36,7 +36,7 @@ function Register() {
                 throw new Error(errorData.message || 'Erro ao registrar');
             }
 
-            navigate('/'); 
+            navigate('/login'); 
         } catch (error: any) {
             setErrorMessage(error.message); 
         }
